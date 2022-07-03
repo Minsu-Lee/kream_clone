@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 import com.jackson.kream.R;
 import com.jackson.kream.adapter.MyAdapter;
+import com.jackson.kream.adapter.holder.sales.MySalesPagerAdapter;
 
 public class MySalesHistoryHolder extends RecyclerView.ViewHolder {
 

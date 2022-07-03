@@ -1,4 +1,4 @@
-package com.jackson.kream.adapter.holder;
+package com.jackson.kream.adapter.holder.sales;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
