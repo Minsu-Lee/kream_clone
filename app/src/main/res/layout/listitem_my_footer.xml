@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="10dp">
+
+    <!-- 보유 상품 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고객센터 1588-7813"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="운영시간 평일 11:00 - 18:00 (토 - 일, 공휴일 휴무)\n점심시간 평일 13:00 - 14:00"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_rectangle_r18_black"
+            android:text="자주 묻는 질문"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_rectangle_r18_border_black"
+            android:text="1:1 문의"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
